@@ -1,0 +1,48 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 50px 96px;
+  font-size: 18px;
+}
+
+.header__menu {
+  justify-self: start;
+}
+
+.header__links-list {
+  display: flex;
+  list-style: circle;
+  gap: 30px;
+}
+
+.header__links-list-item {
+  
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link {
+  text-transform: lowercase;
+  letter-spacing: 0.18px;
+}
+
+.header__logo {
+
+}
+
+.header__logo-image {
+  min-width: 136px;
+}
+
+.address {
+  font-style: normal;
+  line-height: 135%;
+}
+
+.header__address {
+  justify-self: right;
+  padding-right: 38px;
+}
