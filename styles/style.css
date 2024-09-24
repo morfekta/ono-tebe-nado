@@ -75,7 +75,7 @@
 }
 
 .aligned-text {
-  line-height: 115%;
+  line-height: 115%; /*На макете в первой строчке 115%, а на второй и третьей 100%*/
 }
 
 .aligned-text_center {
