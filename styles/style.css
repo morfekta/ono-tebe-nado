@@ -38,7 +38,6 @@
 }
 
 .header__address {
-  justify-self: right;
   justify-self: end;
   max-width: 240px;
   padding-right: 36px;
