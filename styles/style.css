@@ -27,6 +27,14 @@
   text-transform: lowercase;
 }
 
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__logo {
+  text-decoration: none;
+}
+
 .header__logo-image {
   min-width: 136px;
 }
@@ -51,10 +59,7 @@
   z-index: 1;
   padding: 165px 50px 50px;
   color: #fff;
-  background-image: url(../images/cover.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background: center / cover no-repeat url(../images/cover.jpg);
 }
 
 .cover__title {
@@ -112,9 +117,9 @@
   border: 1px solid #fff;
   padding: 12px 32px 11px 31px;
   color: #fff;
+  font-family: Raleway, sans-serif;
   font-weight: 500;
   font-size: 22px;
-  font-style: normal;
   line-height: normal;
   text-align: center;
   text-transform: uppercase;
@@ -267,6 +272,10 @@
 
 .footer__menu-link {
   text-transform: lowercase;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
 }
 
 .footer__social-list {
